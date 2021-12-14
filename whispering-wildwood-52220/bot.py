@@ -5,6 +5,7 @@ from telegram import Update
 from telegram.ext import CallbackContext
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CommandHandler
+import os
 
 #Import Updater and Dispatcher classs to fetch new updates from telegramp
 updater = Updater(token = "2001966813:AAE2fZOT96v6vseK7-zL1aHKp5_p0MiVP5A", use_context = True)
@@ -75,3 +76,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
